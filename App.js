@@ -1,5 +1,4 @@
 import express from 'express';
-import {User} from './Database.js';
 
 const app = express();
 
