@@ -16,7 +16,7 @@ app.get('/hello', (req, res) => {
   res.send('Hello');
 });
 
-app.post('/users', async (req, res) => {
+/* app.post('/users', async (req, res) => {
     const user = new User({
         name: req.body.name,
         age: req.body.age,
@@ -39,7 +39,7 @@ app.get('/users/:id', async (req, res) => {
     } catch (error) {
         res.status(500).send(error.message);
     }
-});
+}); */
 
 
 

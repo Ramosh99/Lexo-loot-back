@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+/* import mongoose from 'mongoose';
 
 mongoose.connect('mongodb://localhost:27017/lexo_loot', { 
     useNewUrlParser: true, 
@@ -13,4 +13,4 @@ const userSchema = new mongoose.Schema({
     contact_no: String
 });
 
-export const User = mongoose.model('User', userSchema);
+export const User = mongoose.model('User', userSchema); */
