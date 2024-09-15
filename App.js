@@ -44,7 +44,7 @@ app.get('/users/:id', async (req, res) => {
 
 
 // Step 4: Start the server and listen on a port
-const port = 3000;
+const port = 3000||8080;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
