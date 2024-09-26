@@ -11,7 +11,7 @@ app.use(express.json());
 //===============================================================>>>
 
 
-app.get('/hello', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello');
 });
 
