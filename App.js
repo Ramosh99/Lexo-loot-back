@@ -1,22 +1,12 @@
-import express from ("express");
+import express from "express";
 
 const app = express();
 
-//Middlewares =================================================>>>>
-
-//parse incoming request with JSON payloads
 app.use(express.json());
-
-
-//===============================================================>>>
-
 
 app.get('/', (req, res) => {
   res.send('Hello');
 });
-
-
-
 
 // Step 4: Start the server and listen on a port
 const port = 3000||8080;
