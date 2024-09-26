@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: trakingcheck
+  AZURE_WEBAPP_NAME: tracked
   NODE_VERSION: '20.x'
 
 jobs:
@@ -23,8 +23,7 @@ jobs:
 
     - name: npm install and build
       run: |
-        npm ci
-        npm run build --if-present
+        npm start
 
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
