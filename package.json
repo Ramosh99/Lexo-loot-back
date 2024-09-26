@@ -2,17 +2,15 @@
   "name": "lexo-loot-back",
   "version": "1.0.0",
   "main": "App.js",
-"scripts": {
-  "start": "node App.js",
-  "build": "echo 'No build necessary for this project'"
-},
+  "scripts": {
+    "start": "node App.js",
+    "build": "echo 'No build necessary for this project'"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0",
-    "lexo-loot-back": "file:",
-    "mongoose": "^8.6.2"
+    "express": "^4.21.0"
   },
   "type": "module",
   "description": ""
