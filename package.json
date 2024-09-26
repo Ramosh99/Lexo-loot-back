@@ -2,10 +2,10 @@
   "name": "lexo-loot-back",
   "version": "1.0.0",
   "main": "App.js",
-  "scripts": {
-    "start": "node App.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "start": "node App.js",
+  "build": "echo 'No build necessary for this project'"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
